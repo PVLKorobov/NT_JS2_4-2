@@ -1,4 +1,4 @@
 export function sortCharacters(charArray) {
-    let res = charArray.sort((firstChar, secondChar) => firstChar.health - secondChar.health);
+    let res = charArray.sort((firstChar, secondChar) => secondChar.health - firstChar.health);
     return res;
 }
